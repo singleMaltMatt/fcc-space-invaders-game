@@ -12,19 +12,28 @@
 }
 
 .invader {
-    background-color: purple;
+    background-image: url('../img/alien.png');
     border-radius: 10px;
 }
 
 .shooter {
-    background-color: red;
+    background-image: url('../img/ship.png');
     border-radius: 5px;
 }
 
 .laser {
-    background-color: yellow;
+    background-image: url('../img/bullet.png');
 }
 
 .boom {
-    background-color: aquamarine;
+    background-image: url('../img/alien-dead.png');
+}
+
+#hud {
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
 }
