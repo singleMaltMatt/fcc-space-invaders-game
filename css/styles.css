@@ -20,3 +20,11 @@
     background-color: red;
     border-radius: 5px;
 }
+
+.laser {
+    background-color: yellow;
+}
+
+.boom {
+    background-color: aquamarine;
+}
